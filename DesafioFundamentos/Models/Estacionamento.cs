@@ -26,7 +26,6 @@ namespace DesafioFundamentos.Models
             Console.WriteLine("Digite a placa do veículo para remover:");
             string placa = Console.ReadLine();
             // Pedir para o usuário digitar a placa e armazenar na variável placa
-            // IMPLEMENTE AQUI*
 
             // Verifica se o veículo existe
             if (veiculos.Any(x => x.ToUpper() == placa.ToUpper()))
